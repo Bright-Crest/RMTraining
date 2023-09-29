@@ -1,3 +1,6 @@
 {
-    "cmake.sourceDirectory": "/home/rmv/VScode/RMTraining/apple",
+    "cmake.sourceDirectory": "/home/rmv/VScode/RMTraining/licence_plate",
+    "files.associations": {
+        "string": "cpp"
+    },
 }
