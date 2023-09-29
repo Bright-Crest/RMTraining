@@ -1,0 +1,3 @@
+/home/rmv/VScode/RMTraining/apple/build/CMakeFiles/rebuild_cache.dir
+/home/rmv/VScode/RMTraining/apple/build/CMakeFiles/edit_cache.dir
+/home/rmv/VScode/RMTraining/apple/build/CMakeFiles/apple.dir
