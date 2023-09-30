@@ -7,7 +7,7 @@
 
 using namespace std;
 
-Detector::Detector(const string &path) : path_(path)
+Detector::Detector(const string &path, const string &save_path) : path_(path), save_path_(save_path)
 {
 }
 
@@ -68,4 +68,6 @@ void Detector::Process()
     cv::imshow("contours", src);
     cv::waitKey();
     cv::destroyAllWindows();
+
+    cv::imwrite(save_path_, src);
 }

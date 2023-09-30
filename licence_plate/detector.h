@@ -15,8 +15,9 @@ class Detector
 {
 public:
     string path_;
+    string save_path_;
 
-    Detector(const string &path = "");
+    Detector(const string &path = "", const string &save_path = "");
     ~Detector();
     void Process();
 };

@@ -26,6 +26,12 @@ opencv2/highgui/highgui.hpp
 assert.h
 -
 
+/home/rmv/VScode/RMTraining/licence_plate/main.cpp
+string
+-
+detector.h
+/home/rmv/VScode/RMTraining/licence_plate/detector.h
+
 /usr/local/include/opencv4/opencv2/core.hpp
 opencv2/core/cvdef.h
 /usr/local/include/opencv4/opencv2/opencv2/core/cvdef.h

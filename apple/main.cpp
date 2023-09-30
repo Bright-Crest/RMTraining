@@ -70,9 +70,12 @@ int main()
 
     // cv::imshow("morph", morph);
     // cv::imshow("morph2", morph2);
+
     cv::imshow("contours", src);
     cv::waitKey();
     cv::destroyAllWindows();
+
+    cv::imwrite("./recognized_apple.png", src);
 }
 
 void onTrackbar(int thresh, void *data_p)
