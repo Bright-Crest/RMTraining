@@ -1,0 +1,3 @@
+/home/rmv/VScode/RMTraining/licence_plate/build/CMakeFiles/rebuild_cache.dir
+/home/rmv/VScode/RMTraining/licence_plate/build/CMakeFiles/edit_cache.dir
+/home/rmv/VScode/RMTraining/licence_plate/build/CMakeFiles/plate.dir

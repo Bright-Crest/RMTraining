@@ -1,6 +1,11 @@
 {
-    "cmake.sourceDirectory": "/home/rmv/VScode/RMTraining/licence_plate",
+    "C_Cpp.default.compilerPath": "/usr/bin/g++",
+    "cmake.sourceDirectory": "/home/rmv/VScode/RMTraining/armor",
     "files.associations": {
-        "string": "cpp"
-    },
+        "array": "cpp",
+        "*.tcc": "cpp",
+        "istream": "cpp",
+        "tuple": "cpp",
+        "utility": "cpp"
+    }
 }
