@@ -6,8 +6,10 @@
 
 #IncludeRegexTransform: 
 
-/home/rmv/VScode/RMTraining/armor/main.cpp
+/home/rmv/VScode/RMTraining/01/armor/main.cpp
 iostream
+-
+algorithm
 -
 string
 -

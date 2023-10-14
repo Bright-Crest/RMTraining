@@ -1,4 +1,4 @@
-# Install script for directory: /home/rmv/VScode/RMTraining/armor
+# Install script for directory: /home/rmv/VScode/RMTraining/01/armor
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/rmv/VScode/RMTraining/armor/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/rmv/VScode/RMTraining/01/armor/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

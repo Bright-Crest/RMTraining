@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rmv/VScode/RMTraining/armor
+CMAKE_SOURCE_DIR = /home/rmv/VScode/RMTraining/01/armor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rmv/VScode/RMTraining/armor/build
+CMAKE_BINARY_DIR = /home/rmv/VScode/RMTraining/01/armor/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -74,14 +74,14 @@ clean: CMakeFiles/armor.dir/clean
 CMakeFiles/armor.dir/all:
 	$(MAKE) -f CMakeFiles/armor.dir/build.make CMakeFiles/armor.dir/depend
 	$(MAKE) -f CMakeFiles/armor.dir/build.make CMakeFiles/armor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rmv/VScode/RMTraining/armor/build/CMakeFiles --progress-num=1,2 "Built target armor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rmv/VScode/RMTraining/01/armor/build/CMakeFiles --progress-num=1,2 "Built target armor"
 .PHONY : CMakeFiles/armor.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/armor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmv/VScode/RMTraining/armor/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmv/VScode/RMTraining/01/armor/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/armor.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmv/VScode/RMTraining/armor/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmv/VScode/RMTraining/01/armor/build/CMakeFiles 0
 .PHONY : CMakeFiles/armor.dir/rule
 
 # Convenience name for target.
