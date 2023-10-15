@@ -10,9 +10,9 @@ using namespace cv;
 int main()
 {
     const int img_count = 41;
-    const int board_w = 11, board_h = 8;
+    const int board_w = 9, board_h = 6;
     const int board_n = board_w * board_h;
-    Size board_size(11, 8);
+    Size board_size(board_w, board_h);
 
     Mat gray_img, binary_img, drawn_img;
     std::vector<Point2f> point_pix_pos_buf;
@@ -31,8 +31,6 @@ int main()
         }
 
         cvtColor(src0, gray_img, COLOR_BGR2GRAY);
-        // adaptiveThreshold(gray_img, binary_img, 255, ADAPTIVE_THRESH_GAUSSIAN_C, THRESH_BINARY, 225, 1);
-        // threshold(gray_img, binary_img, 50, 255, THRESH_BINARY);
 
         if (i == 0)
         {
@@ -40,8 +38,7 @@ int main()
             img_size.height = src0.rows;
         }
 
-        // isFound = findChessboardCorners(src0, board_size, point_pix_pos_buf);
-        isFound = findChessboardCornersSB(src0, board_size, point_pix_pos_buf);
+        isFound = findChessboardCorners(src0, board_size, point_pix_pos_buf);
 
         if (isFound && point_pix_pos_buf.size() == board_n)
         {
