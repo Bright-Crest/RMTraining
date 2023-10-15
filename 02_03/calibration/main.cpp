@@ -40,7 +40,8 @@ int main()
             img_size.height = src0.rows;
         }
 
-        isFound = findChessboardCorners(src0, board_size, point_pix_pos_buf);
+        // isFound = findChessboardCorners(src0, board_size, point_pix_pos_buf);
+        isFound = findChessboardCornersSB(src0, board_size, point_pix_pos_buf);
 
         if (isFound && point_pix_pos_buf.size() == board_n)
         {
