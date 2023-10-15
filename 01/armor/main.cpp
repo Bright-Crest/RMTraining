@@ -144,7 +144,7 @@ int main()
 
         // FOR TEST: decrease computation
         // int frame_count = vcaptuer.get(cv::CAP_PROP_FRAME_COUNT);
-        // if (count % (int)ceil(frame_count / 8) == 0)
+        // if (count % (frame_count / 8) == 0)
         // {
         //     cv::imshow(to_string(count) + " frame", frame);
         //     // cv::imshow(to_string(count) + " canvas", canvas);
