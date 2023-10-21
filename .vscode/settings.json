@@ -1,6 +1,6 @@
 {
     "C_Cpp.default.compilerPath": "/usr/bin/g++",
-    "cmake.sourceDirectory": "/home/rmv/VScode/RMTraining/armor",
+    "cmake.sourceDirectory": "/home/rmv/VScode/RMTraining",
     "files.associations": {
         "array": "cpp",
         "*.tcc": "cpp",
