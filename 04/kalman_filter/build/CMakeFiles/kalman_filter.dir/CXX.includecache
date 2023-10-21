@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rmv/VScode/RMTraining/04/kalman_filter/kalman_filter.cpp
+kalman_filter.h
+/home/rmv/VScode/RMTraining/04/kalman_filter/kalman_filter.h
+iostream
+-
+
+/home/rmv/VScode/RMTraining/04/kalman_filter/kalman_filter.h
+Eigen/Dense
+-
+
+/home/rmv/VScode/RMTraining/04/kalman_filter/main.cpp
+iostream
+-
+fstream
+-
+vector
+-
+string
+-
+Eigen/Dense
+-
+kalman_filter.h
+/home/rmv/VScode/RMTraining/04/kalman_filter/kalman_filter.h
+kalman_filter.cpp
+/home/rmv/VScode/RMTraining/04/kalman_filter/kalman_filter.cpp
+

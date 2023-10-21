@@ -24,7 +24,8 @@ public:
     void SetCoef(const MatrixXX &F_in, const MatrixXX &P_in, const MatrixXX &Q_in, const MatrixYX &H_in, const MatrixYY &R_in);
     void Predict();
     VectorX MeasurementUpdate(const VectorY &z_in);
-    VectorX GetX() { return x; }
+    inline VectorX GetX() { return x; }
+    VectorX *FuturePredict(int iterations = 1);
 
 private:
     VectorX x;  // estimated state
