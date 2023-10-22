@@ -44,8 +44,8 @@ int main()
     solvePnP(object_points, img_points, camera_matrix, dist_coeffs, rvec, tvec);
 
     // object => camera => gyro
-    cout << RMCamera2World.reverse() * Vector3d(tvec.at<double>(0), tvec.at<double>(1), tvec.at<double>(2)) << endl;
-    // cout << RMCamera2World * Vector3d(tvec.at<double>(0), tvec.at<double>(1), tvec.at<double>(2)) << endl;
+    // cout << RMCamera2World.reverse() * Vector3d(tvec.at<double>(0), tvec.at<double>(1), tvec.at<double>(2)) << endl;
+    cout << RMCamera2World * Vector3d(tvec.at<double>(0), tvec.at<double>(1), tvec.at<double>(2)) << endl;
 
     return 0;
 }
